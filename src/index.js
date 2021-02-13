@@ -13,6 +13,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import ThemeContextWrapper from "./components/ThemeWrapper/ThemeWrapper";
 import BackgroundColorWrapper from "./components/BackgroundColorWrapper/BackgroundColorWrapper";
 
+import Home from "views/Home.js";
+
 ReactDOM.render(
   <ThemeContextWrapper>
     <BackgroundColorWrapper>
@@ -20,7 +22,7 @@ ReactDOM.render(
         <Switch>
           <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
           <Route path="/rtl" render={(props) => <RTLLayout {...props} />} />
-          <Redirect from="/" to="/admin/dashboard" />
+          <Route exact path="/" component={Home} />
         </Switch>
       </BrowserRouter>
     </BackgroundColorWrapper>
