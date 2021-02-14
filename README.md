@@ -30,7 +30,7 @@ Services exist that generate playlists based on your mood, but we wanted to do t
 ## What's next for MeloD
 I (Catherine) actually plan on working on this. I've been working on a journaling web app that takes your journal entries, logs them in a data base and tracks your well being with React as a frontend and Django as a backend. I can incorporate this idea of logging Spotify Data as well/borrow from work I already did here. It'd be even nicer if I can expand to generating playlists based on logged data.
 
-##Contact Us
+## Contact Us
 - clasernaj@gmail.com
 - electroqobra@gmail.com
 
