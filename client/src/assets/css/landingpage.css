@@ -1,0 +1,41 @@
+.contentwrapper{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: auto;
+}
+  
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+    color: #fff;
+}
+h2{
+    margin-bottom: 1em;
+    color: #fff;
+}
+span{
+    color: #00D6B4;
+}
+
+
+div > div{
+    text-align: center;
+}
+
+/* Images */
+img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+}
+
